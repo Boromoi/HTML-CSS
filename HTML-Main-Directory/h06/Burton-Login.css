@@ -1,0 +1,13 @@
+li.form-group {
+    width: 500px;
+    padding: 10px;
+}
+input {
+    float: right;
+    width: 300px;
+}
+
+textarea {
+    padding: 10px;
+    width: 300px;
+}
