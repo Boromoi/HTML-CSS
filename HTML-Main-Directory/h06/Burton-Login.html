@@ -16,17 +16,17 @@
 
     <li class="form-group">
         <label for="voornaam">Voornaam</label>
-        <input type="text" name="voornaam">
+        <input class="eersteinput" type="text" name="voornaam">
     </li>
 
     <li class="form-group">
         <label for="tussenvoegsel">Tussenvoegsel</label>
-        <input type="text" name="tussenvoegsel">
+        <input class="eersteinput" type="text" name="tussenvoegsel">
     </li>
 
     <li class="form-group">
         <label for="achternaam">Achternam</label>
-        <input type="text" name="achternaam">
+        <input class="eersteinput" type="text" name="achternaam">
     </li>
 
     <li class="form-group">
@@ -48,7 +48,7 @@
 
     <li class="form-group">
         <label for="geboortedatum">Geboortedatum</label>
-        <input type="date" name="geboortedatum">
+        <input class="eersteinput" type="date" name="geboortedatum">
     </li>
 
     <li class="form-group">
@@ -63,17 +63,20 @@
         <section class="checkboxen">
             <ul>
                 <li class="checkbox">
-                    <label for="sperciebonen">Sperciebonen</label>
-                    <input type="checkbox" name="sperciebonen" value="Sperciebonen">
-
-                    <label for="aardappelen">Aardappelen</label>
-                    <input type="checkbox" name="aardappelen" value="Aardappelen">
-
-                    <label for="hamburger">Hamburger</label>
-                    <input type="checkbox" name="hamburger" value="Hamburger">
+                    <label class="etenlabel" for="sperciebonen">Sperciebonen</label>
+                    <input class="eten" type="checkbox" name="sperciebonen" value="Sperciebonen">
+                    <br>
+                    <label class="etenlabel" for="aardappelen">Aardappelen</label>
+                    <input class="eten" type="checkbox" name="aardappelen" value="Aardappelen">
+                    <br>
+                    <label class="etenlabel" for="hamburger">Hamburger</label>
+                    <input class="eten" type="checkbox" name="hamburger" value="Hamburger">
                 </li>
             </ul>
+            <input class="knoppen" type="button" onclick="window.location.replace('Burton-Education.html')" value="Annuleer">
+            <input class="knoppen" type="submit" name="submit">
         </section>
+
     </div>
 </form>
 </div>

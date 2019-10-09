@@ -1,21 +1,60 @@
-form ul {
-    list-style-type: none;
+body {
+     font-family: Arial, sans-serif;
+ }
+
+div#wrapper {
+    width:1000px;
+    margin:auto;
 }
 
-li.form-group {
-    padding: 10px;
+section.firstSection {
+    width: 50%;
+    float:left;
 }
-input {
+
+section.secondSection {
+    width:25%;
+    float:left;
+    height:441px;
+}
+
+.firstSection input {
     float: right;
 }
 
-textarea {
-    padding: 10px;
-    width: 300px;
+form ul li input.eersteinput {
+    margin-left: 260px;
 }
 
-input.geslachtknop {
-    float: none;
+form ul li input {
+    position: absolute;
+    left: 190px;
+    margin-left: 20px;
+}
+
+form ul li select {
+    position:relative;
+    left:90px;
+    margin-left:20px;
+}
+
+form ul li {
+    padding: 10px;
+}
+
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form ul li textarea {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+form ul li label.omschrijvinglabel {
+    display: block;
 }
 
 form ul li input.geslachtknop {
@@ -26,22 +65,46 @@ form ul li label.geslachtlabel {
     margin-right: 90px;
 }
 
-form ul li input {
-    position: absolute;
-    left: 190px;
-    margin-left: 20px;
-}
-
-form ul li label.omschrijvinglabel {
-    display: block;
-}
-
-form ul li textarea {
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: -20px;
-}
-
 form ul li label.kleurogenlabel {
     margin-right: 75px;
+}
+
+li.form-group {
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+    width: 300px;
+}
+
+input {
+    float: right;
+}
+
+input.geslachtknop {
+    float: none;
+}
+
+input.eten {
+    position: relative;
+    left: 0;
+}
+
+.knoppen {
+    margin-top:300px;
+    margin-right: 5px;
+    float:right;
+}
+
+input.knoplocatie {
+    float: none;
+}
+
+form ul li input.knoplocatie {
+    position: unset;
+}
+
+.checkbox ul li input {
+    float: right;
 }
