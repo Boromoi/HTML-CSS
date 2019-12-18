@@ -23,11 +23,10 @@ section.secondSection {
 }
 
 form ul li input.eersteinput {
-    margin-left: 260px;
+    margin-right: 160px;
 }
 
 form ul li input {
-    position: absolute;
     left: 190px;
     margin-left: 20px;
 }
@@ -36,6 +35,10 @@ form ul li select {
     position:relative;
     left:90px;
     margin-left:20px;
+}
+
+select#kleur-ogen {
+    margin-right: 90px;
 }
 
 form ul li {
